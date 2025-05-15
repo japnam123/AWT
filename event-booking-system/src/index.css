@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.event-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+  margin: 0;
+}
+
+.event-card p {
+  margin: 5px 0;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.book-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.book-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.cancel-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cancel-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
