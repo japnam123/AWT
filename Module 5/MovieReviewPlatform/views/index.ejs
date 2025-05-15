@@ -1,0 +1,6 @@
+<%- include('layout', { body: `
+  <h2>All Movies</h2>
+  <ul>
+    ${movies.map(movie => `<li><a href="/movies/${movie.id}">${movie.title}</a> by ${movie.director}</li>`).join('')}
+  </ul>
+` }) %>
